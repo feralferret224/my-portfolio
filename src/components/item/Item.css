@@ -1,0 +1,67 @@
+.Item {
+  /* background-color: bisque; */
+  background-image: aliceblue;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  box-shadow: 0 8px 40px -12px rgba(0,0,0,0.3);
+}
+
+.Item:hover{
+  transition: 0.6s;
+  box-shadow: 0 8px 40px -12px rgba(0,0,0,0.9);
+}
+
+Card {
+  transition: "0.3s";
+}
+
+/* Card:hover {
+  box-shadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+} */
+
+.aws-btn {
+  height: 44px;
+  font-size: 15px;
+  border-radius: 4px;
+  /* horizontal-padding: 16px;
+  --button-raise-level: 1px;
+  --button-hover-pressure: 0;
+  --transform-speed: 0.175s; */
+  --button-primary-color: #000000;
+  --button-primary-color-dark: #000000;
+  --button-primary-color-light: #ffffff;
+  --button-primary-color-hover: #545454;
+  --button-primary-color-active: #166dba;
+  --button-primary-border: 0px solid #fff5f5;
+  --button-secondary-color: #ffffff;
+  --button-secondary-color-dark: #000000;
+  --button-secondary-color-light: #000000;
+  --button-secondary-color-hover: #eeeded;
+  --button-secondary-color-active: #cfdee9;
+  --button-secondary-border: 1px solid #000000;
+  --button-anchor-color: #0e4f88;
+  --button-anchor-color-dark: #072743;
+  --button-anchor-color-light: #ffffff;
+  --button-anchor-color-hover: #0d4a7f;
+  --button-anchor-color-active: #0c4271;
+  --button-anchor-border: none;
+  --button-danger-color: #c42e2e;
+  --button-danger-color-dark: #861f1f;
+  --button-danger-color-light: #ffffff;
+  --button-danger-color-hover: #bc2c2c;
+  --button-danger-color-active: #af2929;
+  --button-danger-border: none;
+}
+
+.intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.center {
+  justify-content: center;
+}
+
+.left {
+  text-align: left;
+}

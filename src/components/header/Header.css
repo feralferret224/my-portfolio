@@ -1,0 +1,21 @@
+.Header {
+  /* padding: 4rem; */
+  /* background-color: bisque; */
+  background-image: linear-gradient(to bottom right, #fc6f6f, yellow);
+}
+
+.intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.nav-link {
+  color: black;
+  box-shadow: 0 8px 40px -12px rgba(0,0,0,0.3);
+
+}
+
+.nav-item:hover {
+  /* background-color: aquamarine; */
+  box-shadow: 0 8px 40px -12px rgba(0,0,0,0.9);
+}

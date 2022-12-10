@@ -1,0 +1,18 @@
+.Redesign {
+  /* background-color: bisque; */
+  background-image: linear-gradient(to bottom right, yellow, #fc6f6f);
+}
+
+.intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.nav-item {
+  margin-inline-end: 0.5rem;
+  margin-inline-start: 0.0rem;
+}
+
+.list-group-item {
+  background-color: rgba(255, 235, 205, 0.281);
+}

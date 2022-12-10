@@ -1,0 +1,28 @@
+#About {
+  padding: 4rem;
+  padding-bottom: 8rem;
+  /* background-color: bisque; */
+  background-image: linear-gradient(to bottom left, yellow,  #fc6f6f);
+}
+
+.intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.nav-link {
+  color: black;
+  box-shadow: 0 8px 40px -12px rgba(0,0,0,0.3);
+
+}
+
+.nav-item:hover {
+  /* background-color: aquamarine; */
+  box-shadow: 0 8px 40px -12px rgba(0,0,0,0.9);
+}
+
+.profile {
+  border-radius: 4px;
+  max-width: 80%;
+  align-items: center;
+}

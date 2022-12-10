@@ -1,0 +1,54 @@
+.Development {
+  /* background-color: bisque; */
+  background-image: linear-gradient(to bottom right, yellow, #fc6f6f);
+}
+
+.intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.nav-item {
+  margin-inline-end: 0.5rem;
+  margin-inline-start: 0.0rem;
+}
+
+.sketch-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2vw;
+  margin: 5vw;
+}
+
+.sketch-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2vw;
+  margin: 5vw;
+}
+
+.sketch-a img,.sketch-b img {
+  width: 45%;
+  margin: 2vh;
+}
+
+#user-videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  width: 80%;
+}
+
+.video-embed {
+  width: 500px;
+  height: 450px;
+}
+
+.cust-li {
+  background-color: rgba(255, 235, 205, 0.281);
+}

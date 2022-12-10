@@ -1,0 +1,11 @@
+#Projects {
+  padding: 4rem;
+  /* background-color: bisque; */
+  background-image: linear-gradient(to bottom left, yellow, #fc6f6f);
+}
+
+.intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
