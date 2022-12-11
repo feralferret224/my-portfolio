@@ -8,17 +8,17 @@ function Redesign() {
             <div className='container-sm intro'>
             <ul class="nav justify-content-end justify-items-end">
             <li>
-                <NavLink style={{textDecoration: 'none'}} to="/#Projects">
+                <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/#Projects">
                     <a class="nav-link active" href="">projects</a>
                 </NavLink>
             </li>
             <li >
-                <NavLink style={{textDecoration: 'none'}} to="/#Work">
+                <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/#Work">
                     <a class="nav-link active" href="">work</a>
                 </NavLink>            
             </li>
             <li >
-                <NavLink style={{textDecoration: 'none'}} to="/#About">
+                <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/#About">
                     <a class="nav-link active" href="">about</a>
                 </NavLink>            
             </li>
