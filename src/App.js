@@ -9,7 +9,7 @@ import Personas from './components/projects/personas/Personas';
 import Iterative from './components/projects/iterative/Iterative';
 
 // import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Development from './components/projects/development/Development';
