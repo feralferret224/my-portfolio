@@ -57,11 +57,11 @@ export default function App() {
       <Work></Work> */}
       <BrowserRouter>
         <Routes>
-            <Route path="/my-portfolio" element={<Home />} />
-            <Route path="/redesign" element={<Redesign />} />
-            <Route path="/personas" element={<Personas />} />
-            <Route path="/iterative" element={<Iterative />} />
-            <Route path="/development" element={<Development />} />
+            <Route exact path="/my-portfolio" element={<Home />} />
+            <Route path="/my-portfolio/redesign" element={<Redesign />} />
+            <Route path="/my-portfolio/personas" element={<Personas />} />
+            <Route path="/my-portfolio/iterative" element={<Iterative />} />
+            <Route path="/my-portfolio/development" element={<Development />} />
             {/* <Route path="*" element={<NoPage />} /> */}
         </Routes>
       </BrowserRouter>
