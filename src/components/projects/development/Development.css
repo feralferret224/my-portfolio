@@ -1,6 +1,6 @@
 .Development {
   /* background-color: bisque; */
-  background-image: linear-gradient(to bottom right, yellow, #e07777);
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 0, 0.517), #e07777c1);
 }
 
 .intro {
