@@ -18,7 +18,7 @@ function Header() {
         <div className='intro row justify-content-between'>
           <div className='col-8 d-flex flex-column text-start justify-content-start'>
           <h1 className='mb-3 d-flex justify-contents-start title'>Hi, my name is feralferret224.</h1> 
-          <p>I am new to the world of design. Welcome to my portfolio. Let's learn together.</p>
+          <p>Join me as I begin my journey with design. Let's learn together.</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 .Redesign {
   /* background-color: bisque; */
-  background-image: linear-gradient(to bottom right, yellow, #fc6f6f);
+  background-image: linear-gradient(to bottom right, yellow, #e07777);
 }
 
 .intro {
@@ -15,4 +15,8 @@
 
 .list-group-item {
   background-color: rgba(255, 235, 205, 0.281);
+}
+
+img {
+  border-radius: 4px;
 }

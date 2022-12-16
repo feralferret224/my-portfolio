@@ -13,38 +13,39 @@ import Redesign from "./components/projects/redesign/Redesign";
 import NoPage from "./components/no-page/NoPage";
 import About from './components/about/About';
 
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import { withStyles } from "@material-ui/core/styles";
-// import Avatar from "@material-ui/core/Avatar";
-// import Card from "@material-ui/core/Card";
-// import CardMedia from "@material-ui/core/CardMedia";
-// import CardContent from "@material-ui/core/CardContent";
-// import Divider from "@material-ui/core/Divider";
-// import Typography from "@material-ui/core/Typography";
-
-const proj1 = {
-  name: "Reactive Redesign",
-  link: 'https://feralferret224.github.io/assign2-main/',
-  blurb: "I chose to redesign this website because it's the website for the satire newspaper of my university, and I spend a fair amount of time on it."
-}
+import redesign from './components/projects/redesign/img/redesign.png';
+import development from './components/projects/development/img/site.png';
+import persona from './components/projects/redesign/img/storyboard.png';
+import iterative from './components/projects/iterative/PNG-sketches/iterative.png';
 
 const proj2 = {
+  name: "Reactive Redesign",
+  // projImg: {redesign},
+  projImg: "https://i.ibb.co/jTqVXR1/redesign.png",
+  blurb: "I chose to redesign this website because it's the website for the satire newspaper of my university, and I spend a fair amount of time on it. My design is tailored to be more reactive and readable than the original site.",
+  tools: "Figma, HTML/CSS/JS"
+}
+
+const proj1 = {
   name: "Personas & Storyboarding",
-  link: 'https://feralferret224.github.io/assign2-main/',
-  blurb: "This was my first dive into storyboards and personas. I researched user behavior at my local boba shop to determine how users interacted with the ordering kiosk."
+  // projImg: {persona},
+  projImg: "https://i.ibb.co/0fSV9BG/storyboard.png",
+  blurb: "This was my first dive into storyboards and personas. I observed and analysed user behavior at my local boba shop. I then created user experience maps, and a storyboard.",
+  tools: "Balsamiq, Figma"
 }
 
 const proj3 = {
   name: "Iterative Design",
-  link: 'https://feralferret224.github.io/assign2-main/',
-  blurb: "I went through the design process to produce a high fidelity prototype for a product."
+  projImg: "https://i.ibb.co/LP5BrMf/iterative.png",
+  blurb: "I followed the design process of empathize, define, ideate, protoype, and evaluate. My team created a prototype for a service that connects wholesale vendors with restauranteurs, and then had our prototype user-tested.",
+  tools: "Figma, User Testing"
 }
 
 const proj4 = {
   name: "Development",
-  link: 'https://feralferret224.github.io/assign2-main/',
-  blurb: "I prototyped a functional marketplace in React"
+  projImg: "https://i.ibb.co/BVx80MR/site.png",
+  blurb: "I prototyped a functional marketplace in React. The prototype includes two filters, as well as sort functionality. Additionally, I implemented a shopping cart. Data can be uploaded via JSON, simplifying adding and removing items from the store.",
+  tools: "React, HTML/CSS"
 }
 
 const projsList = [proj1, proj2, proj3, proj4]

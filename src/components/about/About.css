@@ -23,6 +23,10 @@
 
 .profile {
   border-radius: 4px;
-  max-width: 80%;
-  align-items: center;
+  max-width: 65%;
+  /* align-items: flex-start; */
 }
+
+/* .no-pad {
+  padding-left: 0;
+} */

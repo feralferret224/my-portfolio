@@ -1,6 +1,6 @@
 .Personas {
   /* background-color: bisque; */
-  background-image: linear-gradient(to bottom right, yellow, #fc6f6f);
+  background-image: linear-gradient(to bottom right, yellow, #e07777);
 }
 
 .intro {
@@ -11,5 +11,9 @@
 .nav-item {
   margin-inline-end: 0.5rem;
   margin-inline-start: 0.0rem;
+}
+
+img {
+  border-radius: 4px;
 }
 

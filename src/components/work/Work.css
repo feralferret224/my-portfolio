@@ -1,5 +1,6 @@
 #Work {
   padding: 4rem;
+  text-align: end;
   /* background-color: bisque; */
   background-image: linear-gradient(to bottom right, #fc6f6f, yellow);
 }
@@ -23,5 +24,5 @@
 .profile {
   border-radius: 4px;
   max-width: 50%;
-  align-items: center;
+  text-align: end;
 }

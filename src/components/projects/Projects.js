@@ -11,22 +11,22 @@ function Projects({projs}) {
       <div className="container-sm">
         <h1 className='d-flex justify-contents-start'>Projects</h1>
         <div className='row justify-content-between intro'>
-          <div className='col'>
-            <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/redesign">
+          <div className='col-6'>
+            <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/personas">
               <Item project={projs[0]}></Item>
             </NavLink>
           </div>
-          <div className='col'>
-            <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/personas">
+          <div className='col-6'>
+            <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/redesign">
               <Item project={projs[1]}></Item>
             </NavLink>
           </div>
-          <div className='col'>
+          <div className='col-6'>
             <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/iterative">
               <Item project={projs[2]}></Item>
             </NavLink>
           </div>
-          <div className='col'>
+          <div className='col-6'>
             <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/development">
               <Item project={projs[3]}></Item>
             </NavLink>

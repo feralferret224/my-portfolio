@@ -1,30 +1,41 @@
 import React from 'react';
 import './Redesign.css';
 import { NavLink } from "react-router-dom";
+import origpage from './img/origpage.png';
+import lofide from './img/lo-fi-desktop.png';
+import lofitab from './img/lo-fi-tablet.png';
+import lofipho from './img/lo-fi-phone.png';
+import style from './img/Design Style Guide.png';
+import hifide from './img/hi-fi-desktop.png';
+import hifitab from './img/hi-fi-tablet.png';
+import hifipho from './img/hi-fi-phone.png';
+import redesign from './img/redesign.png';
+
+
 
 function Redesign() {
     return (
         <div className='Redesign'>
-            <div className='container-sm intro'>
+            <div id="top_header" className='container-sm intro'>
             <ul class="nav justify-content-end justify-items-end">
-            <li>
-                <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/#Projects">
-                    <a class="nav-link active" href="">projects</a>
-                </NavLink>
-            </li>
-            <li >
-                <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/#Work">
-                    <a class="nav-link active" href="">work</a>
-                </NavLink>            
-            </li>
-            <li >
-                <NavLink style={{textDecoration: 'none'}} to="/my-portfolio/#About">
-                    <a class="nav-link active" href="">about</a>
-                </NavLink>            
-            </li>
-        </ul>
+                <li className='nav-item'>
+                    <NavLink className="nav-link active" style={{textDecoration: 'none'}} to="/my-portfolio/#Projects">
+                        projects
+                    </NavLink>
+                </li>
+                <li className='nav-item'>
+                    <NavLink className="nav-link active" style={{textDecoration: 'none'}} to="/my-portfolio/#Work">
+                        work
+                    </NavLink>            
+                </li>
+                <li className='nav-item'>
+                    <NavLink className="nav-link active" style={{textDecoration: 'none'}} to="/my-portfolio/#About">
+                        about
+                    </NavLink>            
+                </li>
+            </ul>
         </div>
-            <div className="container-sm text-left intro" id="top_header">
+            <div className="container-sm text-left intro" >
                 <div className="row justify-content-md-center">
                     <h1>Reactive Redesign</h1>
                 </div>
@@ -51,14 +62,18 @@ function Redesign() {
         <div className="container-sm mt-5">
         <div className="row">
             <div className="col-md-auto">
-            <h2 id="usability">Initial usability issues</h2>
+            <div className='background'>
+                <h2 class="mt-5" id="goals">Goals</h2>
+                <p>My goal for this project was to build up my experience with HTML/CSS/JS, while also focusing on reactive design. The orginal website is not designed for mobile, so I paid special attention to how to maintain the layout's readability while still inlcuding the necessary information.</p>
+            </div>
+            <h2 class="mt-5" id="usability">Initial usability issues</h2>
             <h5 className="mt-3">Original webpage</h5>
                     <div className="row">
                         <div className="col-xl">
-                            <img src="img/origpage.png" className="img-fluid" alt="Image of original website"/>					
+                            <p className='mt-4'>I chose to redesign this website because it's the website for the satire newspaper of my university, and I spend a fair amount of time on it. Visit the original <a href="http://thenoser.com"><b>here</b></a>.</p>
+                            <img src={origpage} className="img-fluid" alt="Image of original website"/>					
                         </div>
                         <div className="col-md">
-                            <p>I chose to redesign this website because it's the website for the satire newspaper of my university, and I spend a fair amount of time on it. Visit the original <a href="http://thenoser.com">here</a></p>
                             <h5 className="mt-3">Issues I've noticed:</h5>
                             <ol className="list-group list-group-flush list-group-numbered">
                                 <li className="list-group-item">The page looks outdated</li>
@@ -74,54 +89,69 @@ function Redesign() {
                     </div>
             
                     <h2 className="mt-5" id="lo-fi">Low-fidelity wireframes</h2>
+                    <p className='mt-4'>Before finalizing my design, I created a low-fidelity wireframe. This allowed me to better organize the layout and to decide what I would display when the page was at its smallest, on a moble device. I included my annotations indicating my reasoning.</p>
                     <div className="row mt-3">
                         <div className="col-lg-auto">
                             <h5>Desktop</h5>
-                            <img src="img/lo-fi-desktop.png" className="img-fluid" alt="lo-fi-desktop image"/>
+                            <img src={lofide} className="img-fluid" alt="lo-fi-desktop image"/>
                         </div>
                         <div className="mt-3 col-sm">
                             <h5>Tablet</h5>
-                            <img src="img/lo-fi-tablet.png" className="img-fluid" alt="lo-fi-tablet image"/>
+                            <img src={lofitab} className="img-fluid" alt="lo-fi-tablet image"/>
                         </div>
                         <div className="mt-3 col-sm">
                             <h5>Phone</h5>
-                            <img src="img/lo-fi-phone.png" className="img-fluid" alt="lo-fi-phone image"/>
+                            <img src={lofipho} className="img-fluid" alt="lo-fi-phone image"/>
                         </div>
                     </div>
                 
                     <h2 className="mt-5" id="design">Design guide</h2>
                     <h5>Reference for prototype</h5>
-                    <img src="img/Design Style Guide.png" className="img-fluid" alt="Design Stlye Guide image"/>
-            <h2 className="mt-5" id="hi-fi">High-fidelity prototypes</h2>
+                    <p className='mt-4'>I created a style guide for the website that mimics the print publication's styling. The fonts used are the same as those in the paper.</p>
+                    <img src={style} className="img-fluid" alt="Design Stlye Guide image"/>
+                    <h2 className="mt-5" id="hi-fi">High-fidelity prototypes</h2>
+                    <p className='mt-4'>Using my lo-fi wireframes and style guide, I designed a hi-fi prototype of the page at various sizes. The hi-fi annotations relate to how to create the page structure and usability.</p>
                     <div className="row mt-3">
                         <div className="col-lg-auto">
                             <h5>Desktop</h5>
-                            <img src="img/hi-fi-desktop.png" className="img-fluid" alt="hi-fi-desktop image"/>
+                            <img src={hifide} className="img-fluid" alt="hi-fi-desktop image"/>
                         </div>
                         <div className="mt-3 col-sm">
                             <h5>Tablet</h5>
-                            <img src="img/hi-fi-tablet.png" className="img-fluid" alt="hi-fi-tablet image"/>
+                            <img src={hifitab} className="img-fluid" alt="hi-fi-tablet image"/>
                         </div>
                         <div className="mt-3 col-sm">
                             <h5>Phone</h5>
-                            <img src="img/hi-fi-phone.png" className="img-fluid" alt="hi-fi-phone image"/>
+                            <img src={hifipho} className="img-fluid" alt="hi-fi-phone image"/>
                         </div>
 
                     <h2 className="mt-5" id="redesign">Final redesign</h2>
                     <div className="row d-flex">
                         <div className="col-lg">
-                            <p>This is the final product: a restructured, cleaner page. Test different sizes to see how the page should behave responsively. Visit the redesign <a href="https://feralferret224.github.io/assign2-mockup/#">here</a></p>
+                            <p className='mt-4'>This is the final product: a restructured, cleaner page. Test different sizes to see how the page should behave responsively.</p>
                         </div>
                         <div className="col-xl-auto">
-                            <img src="img/redesign.png" className="img-fluid" alt="Image of original website" />					
+                            <img src={redesign} className="img-fluid" alt="Image of original website" />					
+                        </div>
+                        <nav class="navbar-expand-sm left mt-5" id="navbar">
+                                <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://feralferret224.github.io/assign2-mockup/#">Visit the prototype</a>
+                                </li>
+                                </ul>
+                        </nav>
+                        <div className='conclusion'>
+                            <h2 class="mt-5" id="goals">Takeaways</h2>
+                            <p>This project was my first exposure to reactive design, and it was a challenge. I came away from it with a much improved skill set in CSS and HTML, and I learned the ins and outs of Figma as well. From a design standpoint, I learned about the importance of <b>memorability</b>, <b>learnability</b>, and <b>usability</b>, and I worked to integrate them in my design over the course of this project.</p>
                         </div>
                     </div>
                 </div>
+                
         </div>
         </div>
         </div>
 
-        <nav className="navbar navbar-expand-sm center mt-5" id="navbar">
+        <nav className="navbar intro navbar-expand-sm center mt-5" id="navbar">
         <div className="container-fluid">
             <ul className="navbar-nav mx-auto">
             <li className="nav-item">

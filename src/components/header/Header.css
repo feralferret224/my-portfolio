@@ -1,5 +1,5 @@
 .Header {
-  /* padding: 4rem; */
+  padding: 4rem;
   /* background-color: bisque; */
   background-image: linear-gradient(to bottom right, #fc6f6f, yellow);
 }
@@ -17,5 +17,6 @@
 
 .nav-item:hover {
   /* background-color: aquamarine; */
+  transition: 0.6s;
   box-shadow: 0 8px 40px -12px rgba(0,0,0,0.9);
 }
