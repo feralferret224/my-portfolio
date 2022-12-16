@@ -102,7 +102,7 @@ function Item({project}) {
             </Typography>
             <Typography className={"MuiTypography--subheading"} variant={"subtitle1"} color="text.secondary">
               <br />
-              {project.tools}
+              Lessons learned: {project.tools}
             </Typography>
           </CardContent>
         </CardActionArea>
