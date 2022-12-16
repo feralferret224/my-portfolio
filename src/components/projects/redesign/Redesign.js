@@ -141,7 +141,7 @@ function Redesign() {
                                 </ul>
                         </nav>
                         <div className='conclusion'>
-                            <h2 class="mt-5" id="goals">Takeaways</h2>
+                            <h2 class="mt-5" id="goals">Lessons</h2>
                             <p>This project was my first exposure to reactive design, and it was a challenge. I came away from it with a much improved skill set in CSS and HTML, and I learned the ins and outs of Figma as well. From a design standpoint, I learned about the importance of <b>memorability</b>, <b>learnability</b>, and <b>usability</b>, and I worked to integrate them in my design over the course of this project.</p>
                         </div>
                     </div>

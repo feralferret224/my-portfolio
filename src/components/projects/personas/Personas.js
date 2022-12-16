@@ -145,7 +145,7 @@ function Personas() {
             </div>
             </div>
             <div className='conclusion'>
-                        <h2 class="mt-5" id="goals">Takeaways</h2>
+                        <h2 class="mt-5" id="goals">Lessons</h2>
                         <p>I got insight into the importance of user testing during this project. Different users found different things confusing. This was empowering knowledge because it enabled me to better put myself in their place, and I was better able to create the Empathy Maps and Storyboards. With insight into user frustrations, I can design a more informed and improved experience.</p>
                     </div>
             </div>

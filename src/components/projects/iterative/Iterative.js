@@ -214,7 +214,7 @@ function Iterative() {
         </ol>
     </div>
     <div className='conclusion'>
-        <h2 class="mt-5" id="goals">Takeaways</h2>
+        <h2 class="mt-5" id="goals">Lessons</h2>
         <p>This was my first time following the design process, and it was interesting to see how ideas can be improved upon with further iterations. The critique and user testing were both helpful because they highlighted issues that weren't immediately apparent to my team. In the future, I'll continue to focus on user empathy and to seek outside opinions on my designs.</p>
     </div>
         </div>  

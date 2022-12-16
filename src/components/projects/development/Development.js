@@ -82,7 +82,7 @@ function Development() {
                 <p>The user triggers state changes using state variables, useEffect hooks, and the passing of props to components. The cart is controlled by a state variable, and when there is an item added to the cart, the CartItems are rerendered. Additionally, the card of the item that&#39;s be added to the cart is rerendered depending on the cart contents as well. The metric the user is sorting by is also a state variable, and when it's changed, it rerenders the order of the item cards.</p>
             </div>
             <div className='conclusion'>
-                <h2 class="mt-5" id="goals">Takeaways</h2>
+                <h2 class="mt-5" id="goals">Lessons</h2>
                 <p>I gained good React experience over the course of this project. I found that I had to hone my instincts regarding when a piece of the layout's structure should become a component, so I focused on both that and making sure that I could send properties back and forth between components in a logical manner.</p>
              </div>
         
